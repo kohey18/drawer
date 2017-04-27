@@ -71,8 +71,8 @@
           });
 
           $(window).on('resize.' + namespace, function close() {
-            __.close.call(_this);
-            return _this.iScroll.refresh();
+            //__.close.call(_this);
+            //return _this.iScroll.refresh();
           });
 
           $('.' + __.settings.class.dropdown)
